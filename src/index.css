@@ -1,0 +1,2040 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  overflow-y: auto;
+  height: 100%;
+}
+
+/* .makeStyles-paper-11, */
+/* .makeStyles-paper-11 h2, */
+/* .MuiTypography-body1,
+.MuiPaper-root, */
+h2 {
+  color: #f9d749 !important;
+}
+
+.firstContainer{
+  position: absolute;
+  width: 1048px;
+  height: 289px;
+  left: 400px;
+  top: 18px;
+  
+  background: rgba(32, 37, 67, 0.5);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 5px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.Line-After-FirstThreeLetters1{
+  position: absolute;
+  width: 299px;
+  height: 0px;
+  left: 35px;
+  top: 73px;
+  
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.FirstThreeLetters{
+  display: flex;
+  flex-direction: row;
+}
+
+.Container3-others{
+  position: absolute;
+  width: 60px;
+  height: 15px;
+  left: 903px;
+  top: 245px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 104.02%;
+  /* identical to box height, or 15px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  
+  color: #FFFFFF;
+}
+
+.InvestNow{
+box-sizing: border-box;
+
+position: absolute;
+width: 646px;
+height: 40px;
+left: 400px;
+top: 359.47px;
+
+background: radial-gradient(59345.13% 4094144349.28% at 39511.5% -2722397851.45%, rgba(0, 245, 171, 0.5) 0%, rgba(0, 173, 232, 0.5) 100%);
+border: 0.5px solid #E41A1A;
+}
+
+/* .BelowInvestNow{
+
+} */
+
+.ChatOnDescord{
+box-sizing: border-box;
+
+position: absolute;
+width: 317px;
+height: 40px;
+left: 400px;
+top: 415.5px;
+
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid #728CDF;
+backdrop-filter: blur(25px);
+}
+
+.ReadDocs{
+box-sizing: border-box;
+
+position: absolute;
+width: 310px;
+height: 40px;
+left: 735px;
+top: 415.5px;
+
+background: rgba(255, 255, 255, 0.5);
+border: 1px solid #728CDF;
+backdrop-filter: blur(25px);
+}
+.RecommentBox{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 101px;
+height: 16px;
+left: 590px;
+top: 490px;
+
+background: rgba(0, 232, 162, 0.5);
+border-radius: 3px;
+}
+
+.DivBelowFarms{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmsText{
+position: absolute;
+width: 129px;
+height: 30px;
+left: 50px;
+top: -5px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.BombFarmStartingDiv{
+box-sizing: border-box;
+position: absolute;
+width: 1046px;
+height: 377.25px;
+left: 405px;
+top: 730px;
+
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.TextBelowBombFarms{
+  position: absolute;
+width: 379px;
+height: 19px;
+left: 50px;
+top: 40px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.depositButtonText{
+  margin-left: 10px;
+}
+
+.withdrawButtonText{
+  margin-left: 10px;
+}
+
+.BombFarmDeopsitButton{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 36rem;
+  top: 5.2rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  border: 1px solid white;
+  border-radius: 25px;
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmDeopsitButtonSecondDiv{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 36rem;
+  top: 13.2rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  border: 1px solid white;
+  border-radius: 25px;
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmDeopsitButtonTextSeconDiv{
+  width: 53px;
+height: 20px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.BombFarmStartingDepositAndWithdrawDivBoardroom{
+  display: flex;
+  flex-direction: row;
+}
+
+.depositButton{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 52rem;
+  top: 37.2rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  border: 1px solid white;
+  border-radius: 25px;
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmClaimButton{
+
+  width: 120px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 25px;
+  left: 48.7rem;
+  top:5.3rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.BondsStarting{
+  box-sizing: border-box;
+
+position: absolute;
+width: 1045px;
+height: 186px;
+left: 405px;
+top: 1157px;
+
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.eclipse{
+  position: absolute;
+  width: 153.83px;
+  height: 153.83px;
+  left: 791.99px;
+  top: 52px;
+}
+
+.insideeclipse{
+  position: absolute;
+  width: 102px;
+  height: 102px;
+  left: 28px;
+  top: 35px;
+  border-radius: 50px;
+  background: #23284B;
+}
+
+.insideeclipseText{
+  position: absolute;
+  width: 78px;
+  height: 40px;
+  left: 16px;
+  top: 16px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 104.02%;
+  /* or 21px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'liga' off;
+  
+  color: #FFFFFF;
+}
+
+.BombFarmClaimButtonTextSecondDiv{
+  width: 104px;
+  height: 20px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmClaimButtonSecondDiv{
+
+  width: 120px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 25px;
+  left: 48.7rem;
+  top:13.3rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.BombFarmWithdrawButton{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 42rem;
+  top: 5.2rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmWithdrawButtonTextSecondDiv{
+  width: 69px;
+height: 20px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.BombFarmWithdrawButtonSecondDiv{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 42rem;
+  top: 13.2rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.withdrawButton{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 58rem;
+  top: 37.2rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.claimRewardButtonText{
+  margin-left: 35px;
+}
+
+.claimRewardButton{
+  width: 175px;
+  height: 20px;
+  position: absolute;
+  border: 1px solid white;
+  border-radius: 25px;
+  left: 52rem;
+  top:39.2rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmStartingBoardroomText{
+position: absolute;
+width: 115px;
+height: 30px;
+left: 0.29px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingRecommentBoxTextSecondDiv{
+  width: 82px;
+height: 16px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.BombFarmStartingLineAfetrBoardroomSecondDiv{
+  position: absolute;
+  width: 950px;
+  height: 0px;
+  top: 185px;
+  
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.BombFarmStartingRecommentBoxSecondDiv{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 101px;
+height: 16px;
+left: 145.46px;
+top: 144.00px;
+
+background: rgba(0, 232, 162, 0.5);
+border-radius: 3px;
+}
+
+.BombFarmStartingBoardroomTextSecondDiv{
+position: absolute;
+width: 147px;
+height: 30px;
+top: 130.57px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingBelowDescordAndReadSecondDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingInvestnowAndLatestNewsFirstDiv{
+  position: absolute;
+  width: 57rem;
+  top: 77px;
+  left: 95px;
+  color: white;
+}
+
+.LatestNewsText{
+position: absolute;
+width: 128px;
+height: 30px;
+left: 19px;
+top: 8px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.LatestNewsDiv{
+ box-sizing: border-box;
+position: absolute;
+width: 382px;
+height: 336px;
+left: 1070px;
+top: 350px;
+
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.YourStakeDiv{
+position: absolute;
+width: 74px;
+height: 60px;
+left: 552px;
+top: 582.43px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.InvestnowAndLatestNewsFirstDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.DepositAndWithdrawDivBoardroom{
+  display: flex;
+  flex-direction: row;
+}
+
+.EarnedDiv{
+position: absolute;
+width: 100px;
+height: 60px;
+left: 661px;
+top: 582.43px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.DailyReturnDiv{
+position: absolute;
+width: 89px;
+height: 52px;
+left: 458px;
+top: 582.43px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.LastDivBoardroomBox{
+  display: flex;
+  flex-direction: row;
+}
+
+.TotalStaked{
+position: absolute;
+width: 142px;
+height: 22px;
+left: 890px;
+top: 545px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.LineAfetrBoardroom{
+position: absolute;
+width: 542px;
+height: 0px;
+left: 450px;
+top: 545px;
+
+border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.TVLprice{
+position: absolute;
+width: 118px;
+height: 22px;
+left: 892px;
+top: 485.43px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.TextBelowBoardroom{
+position: absolute;
+width: 279px;
+height: 19px;
+left: 470.29px;
+top: 518px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.RecommentBoxText{
+width: 82px;
+height: 16px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.BelowDescordAndRead{
+  display: flex;
+  flex-direction: row;
+}
+
+.BoardroomText{
+position: absolute;
+width: 115px;
+height: 30px;
+left: 68.29px;
+top: -10px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.BoardroomBox{
+box-sizing: border-box;
+
+position: absolute;
+width: 646px;
+height: 202px;
+left: 400px;
+top: 480px;
+
+background: rgba(35, 40, 75, 0.75);
+border: 1px solid #728CDF;
+backdrop-filter: blur(10px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+.ReadDocsText{
+  position: absolute;
+  width: 92.87px;
+  height: 25px;
+  left: 115.63px;
+  top: -10px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'liga' off;
+  
+  color: #FFFFFF;
+}
+
+.ChatOnDescordText{
+position: absolute;
+width: 134px;
+height: 25px;
+left: 80.68px;
+top: -10px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+}
+
+.InvestNowText{
+position: absolute;
+width: 128px;
+height: 33px;
+left: 268px;
+top: -22px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #ffffff;
+}
+
+.ReadInvestmentStrategy{
+  width: 190px;
+  height: 22px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  align-items: center;
+  text-decoration-line: underline;
+  font-feature-settings: 'liga' off;
+  
+  color: #9EE6FF;
+  position: absolute;
+  left: 60rem;
+  top: 20rem;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Container3-Bshare-BNB{
+position: absolute;
+width: 107px;
+height: 15px;
+left: 903px;
+top: 221px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 104.02%;
+/* identical to box height, or 15px */
+
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+}
+
+.Container3-Bomb-BTCB{
+position: absolute;
+width: 113px;
+height: 15px;
+left: 903px;
+top: 198px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* identical to box height, or 15px */
+
+color: #FFFFFF;
+}
+
+.Container3-Bbond{
+position: absolute;
+width: 30px;
+height: 15px;
+left: 743.9px;
+top: 245.18px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 104.02%;
+/* identical to box height, or 15px */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+}
+
+.Container3-Bshare{
+position: absolute;
+width: 30px;
+height: 15px;
+left: 742px;
+top: 221px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 104.02%;
+/* identical to box height, or 15px */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+}
+
+.Container3-Bomb{
+position: absolute;
+width: 30px;
+height: 15px;
+left: 742px;
+top: 198px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 104.02%;
+/* identical to box height, or 15px */
+
+display: flex;
+align-items: center;
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingBelowDescordAndRead{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingRecommentBox{
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  left: 120px;
+  top: 15px;
+  margin-left: 10px;
+  width: 101px;
+  height: 16px;
+  position: relative;
+  background: rgba(0, 232, 162, 0.5);
+  border-radius: 3px;  
+}
+
+.BombFarmStartingTVLprice{
+  position: relative;
+  left: 36rem;
+  top: 10px;
+}
+
+.BombFarmStartingEarnedDiv{
+position: absolute;
+width: 100px;
+height: 60px;
+left: 280px;
+top: 70.43px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingDepositAndWithdrawDivBoardroomSecondDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingTVLpriceSecondDiv{
+  position: absolute;
+width: 118px;
+height: 22px;
+left: 714px;
+top: 144px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16.3px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingYourStakeDivSecondDiv{
+position: absolute;
+width: 85px;
+height: 64px;
+left: 150px;
+top: 200px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingEarnedDivSecondDiv{
+  position: absolute;
+width: 76px;
+height: 64px;
+left: 280px;
+top: 200px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingLastDivBoardroomBoxSecondDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingDailyReturnDivSeocndDiv{
+position: absolute;
+width: 92px;
+height: 52px;
+top: 200px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.BombFarmStartingDepositAndWithdrawDivBoardroom{
+
+}
+
+.BombFarmStartingLastDivBoardroomBox{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingYourStakeDiv{
+position: absolute;
+width: 74px;
+height: 60px;
+left: 152px;
+top: 70.43px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+
+.BombFarmStartingDailyReturnDiv{
+  position: absolute;
+  width: 92px;
+  height: 52px;
+  top: 70px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  
+  color: #FFFFFF;
+}
+
+.BombFarmStartingRecommentBoxText{
+  width: 82px;
+  height: 16px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  /* line-height: 16px; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  position: relative;
+  left: 20px;
+  bottom: 13px;
+  flex-grow: 0;
+}
+
+.LastEpoch{
+position: absolute;
+width: 149px;
+height: 19px;
+left: 425px;
+top: 228px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.TVL{
+position: absolute;
+width: 107px;
+height: 19px;
+left: 446px;
+top: 206px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.LiveTwap{
+position: absolute;
+width: 106px;
+height: 19px;
+left: 447px;
+top: 184px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.NextEpochIn{
+  position: absolute;
+width: 140px;
+height: 63px;
+left: 430px;
+top: 102px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 30px;
+/* or 118% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Line1{
+position: absolute;
+width: 185.01px;
+height: 0px;
+left: 404px;
+top: 102px;
+
+border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.CurrentEpoch{
+  position: absolute;
+width: 118px;
+height: 63px;
+left: 441px;
+top: 34px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+/* or 139% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.FirstThreeLetters-text1{
+  position: absolute;
+width: 68px;
+height: 14px;
+left: 90px;
+top: 53px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height */
+color: #FFFFFF;
+}
+
+.FirstThreeLetters-text2{
+  position: absolute;
+  width: 57px;
+  height: 14px;
+  left: 170px;
+  top: 53px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.Line-After-FirstThreeLetters{
+  position: absolute;
+width: 299px;
+height: 0px;
+left: 35px;
+top: 114px;
+
+border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.FirstDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.BombElement{
+  position: absolute;
+width: 43px;
+height: 16px;
+left: 25px;
+top: 85px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.BombElement2{
+  position: absolute;
+  width: 41px;
+  height: 19px;
+  left: 97px;
+  top: 85px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.BombElement3{
+  position: absolute;
+width: 40px;
+height: 19px;
+left: 178px;
+top: 85px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.BombElement4{
+  position: absolute;
+width: 69px;
+height: 38px;
+left: 238px;
+top: 85px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.FirstThreeLetters-text3{
+  position: absolute;
+width: 22px;
+height: 14px;
+left: 261px;
+top: 63px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.bombfinancesummary--heading{
+  position: absolute;
+  width: 242px;
+  height: 30px;
+  left: 408.98px;
+  top: -15px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;  
+}
+
+.Line-After-FirstThreeLetters2{
+  position: absolute;
+  width: 352px;
+  height: 0px;
+  left: 16px;
+  top: 130px;
+  
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.SecondDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.Bshare{
+  position: absolute;
+  width: 56px;
+  height: 16px;
+  left: 25px;
+  top: 145px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.Bshare2{
+  position: absolute;
+width: 46px;
+height: 19px;
+left: 94px;
+top: 145px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Bshare3{
+  position: absolute;
+width: 41px;
+height: 19px;
+left: 177px;
+top: 145px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Bshare4{
+  position: absolute;
+width: 83px;
+height: 38px;
+left: 231px;
+top: 145px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.Line-After-FirstThreeLetters3{
+  position: absolute;
+  width: 352px;
+  height: 0px;
+  left: 16px;
+  top: 190px;
+  
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+.Bbond{
+  position: absolute;
+  width: 51px;
+  height: 16px;
+  left: 26px;
+  top: 203px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.Bbond2{
+  position: absolute;
+  width: 46px;
+  height: 19px;
+  left: 94px;
+  top: 201px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+
+}
+.Bbond3{
+  position: absolute;
+  width: 33px;
+  height: 19px;
+  left: 181px;
+  top: 201px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+.Bbond4{
+  position: absolute;
+  width: 69px;
+  height: 38px;
+  left: 238px;
+  top: 201px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+
+body {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rubik', cursive !important;
+  text-transform: uppercase;
+  color: #f9d749;
+}
+
+.MuiToolbar-regular {
+  color: #e0e3bd;
+}
+
+.MuiButton-containedPrimary,
+.MuiButton-containedPrimary:hover,
+.MuiListItem-button:hover,
+.MuiButtonBase-root:hover {
+  color: #fff !important;
+}
+
+code {
+  font-family: 'Rubik', monospace;
+}
+
+.wallet-button {
+  color: white;
+  font-family: 'Rubik', sans-serif !important;
+  font-size: 1.2rem !important;
+  text-align: left !important;
+  justify-content: flex-start !important;
+  text-transform: none !important;
+}
+.wallet-button:hover {
+  color: #f9d749 !important;
+}
+
+.navLink {
+  color: white !important;
+}
+
+.navLink:hover {
+  color: #f9d749 !important;
+}
+
+.shinyButton {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  color: #f9d749 !important;
+  box-shadow: 0px 0px 5px 0px rgba(251, 221, 76, 1);
+}
+
+.shinyButtonGreen {
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  color: #00ff00 !important;
+  box-shadow: 0px 0px 5px 0px rgb(0, 255, 0);
+}
+
+.shinyButtonDisabled {
+  border-radius: 15px;
+
+  color: grey !important;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.shinyButton:hover {
+  background-color: #f9d749 !important;
+  color: #171923 !important;
+}
+
+.shinyButtonGreen:hover {
+  background-color: #00ff00 !important;
+  color: #171923 !important;
+}
+
+.shinyButtonSecondary {
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  border-radius: 15px;
+  font-size: 1rem !important;
+  padding-left: 5px;
+  background-color: #f9d749 !important;
+  color: #171923 !important;
+  /* box-shadow: 0px 0px 5px 0px rgba(251,221,76,1); */
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.account > img,
+.account > div {
+  margin-right: 8px;
+}
+
+.shinyButtonDisabledSecondary {
+  border-radius: 15px;
+
+  color: grey !important;
+  box-shadow: 0px 0px 5px 0px grey;
+}
+
+.shinyButtonSecondary:hover {
+  background-color: #f9d749 !important;
+  color: #171923 !important;
+  box-shadow: 0px 0px 5px 0px rgba(251, 221, 76, 1);
+}
+
+.navTokenPrice {
+  padding-top: 5px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+.navTokenIcon {
+  height: 30px !important;
+  width: 30px !important;
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* Dropdown menus implementation */
+.navDropdownMenuRoot:after{
+  content: '';
+  border: 4px solid transparent;
+  border-top: 4px solid white;
+  margin-left: 5px;
+  margin-bottom: 3px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.navDropdownMenu .navDropdownMenuContainer {
+  display: none;
+  padding-top: 24px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  animation: rotateMenu 400ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+.navDropdownMenu:hover .navDropdownMenuContainer {
+  display: block;
+}
+
+.navDropdownMenu .navDropdownMenuWrapper {
+  background-color: #171923;
+  border: 1px solid #171923;
+  border-bottom: none;
+}
+
+.bombfinancesummary--heading--line{
+  position: absolute;
+width: 970px;
+height: 0px;
+left: 35px;
+top: 40px;
+
+border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.navDropdownMenu .navDropdownMenuItem {
+  border-bottom: 1px solid rgb(255, 215, 2);
+}
+
+.navDropdownMenu .navDropdownMenuItem:last-of-type {
+  border-bottom: 1px solid #171923;
+}
+
+.navDropdownMenu .navDropdownMenuItem a {
+  display: block;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+@keyframes rotateMenu {
+  0% {
+    transform: rotateX(-90deg)
+  }
+  70% {
+    transform: rotateX(20deg)
+  }
+  100% {
+    transform: rotateX(0deg)
+  }
+}
+
+/* End dropdown menus implementation */
+
+.bomb {
+  background-image: url('/bomb1.png');
+}
+
+.bshare {
+  background-image: url('/bomb2.png');
+}
+
+.btc {
+  background-image: url('/bomb3.png');
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(28, 28, 28, 0.19);
+  backdrop-filter: blur(6px);
+  opacity: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.3s;
+  animation-name: modal-video;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+  z-index: 100;
+}
+
+.modal__align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal__content {
+  width: 800px;
+  height: 500px;
+  box-shadow: 0px 100px 80px rgba(184, 184, 184, 0.07), 0px 25.8162px 19px 4px rgba(178, 178, 178, 0.0456112),
+    0px 7.779px 7.30492px rgba(0, 0, 0, 0.035), 0px 1.48838px 2.0843px rgba(0, 0, 0, 0.0243888);
+  border-radius: 20px;
+  background: transparent;
+  color: #000;
+  margin: 0rem 4rem;
+}
+
+.modal__close {
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  bottom: 50px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+
+.modal__video-align {
+  display: flex;
+  position: relative;
+  bottom: 37px;
+}
+
+.modal__video-style {
+  border-radius: 20px;
+  z-index: 100;
+}
+
+.modal__spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal__spinner {
+  animation: spin 2s linear infinite;
+  font-size: 40px;
+  color: #1b6aae;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .modal__content {
+    margin: 0rem 1rem;
+    width: 100%;
+  }
+  .modal__video-style {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .modal__content {
+    background: transparent;
+    height: auto;
+  }
+  .modal__video-align {
+    bottom: 0px;
+  }
+  .modal__video-style {
+    height: auto;
+  }
+}
