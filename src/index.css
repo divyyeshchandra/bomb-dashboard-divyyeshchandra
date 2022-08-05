@@ -251,7 +251,56 @@ color: #FFFFFF;
   
   border: 1px solid white;
   border-radius: 25px;
-  /* Inside auto layout */
+
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.RedeemButton1{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 56rem;
+  top: 8.8rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  border: 1px solid white;
+  border-radius: 25px;
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.RedeemButton{
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  left: 56rem;
+  top: 4.2rem;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  border: 1px solid white;
+  border-radius: 25px;
+
   
   flex: none;
   order: 0;
@@ -273,11 +322,53 @@ align-items: center;
 color: #FFFFFF;
 
 
-/* Inside auto layout */
 
 flex: none;
 order: 0;
 flex-grow: 0;
+}
+
+.RedeemButtonText{
+  width: 53px;
+  height: 20px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.RedeemButtonText1{
+  width: 53px;
+  height: 20px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+  
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .BombFarmStartingDepositAndWithdrawDivBoardroom{
@@ -1006,6 +1097,171 @@ font-feature-settings: 'liga' off;
 color: #FFFFFF;
 }
 
+.BondsSecondDivStartingSecondDivText2{
+position: absolute;
+width: 65px;
+height: 49px;
+left: 380px;
+top: 75px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+.BondsSecondDivStartingSecondDivText1{
+position: absolute;
+width: 230px;
+height: 30px;
+left: 60px;
+top: 104px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.BondsSecondDivStartingSecondDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.BondsSecondDivStartingSecondDivText4{
+position: absolute;
+width: 108px;
+height: 22px;
+left: 605px;
+top: 110.6px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.LineAfterBonds{
+position: absolute;
+width: 417px;
+height: 0px;
+left: 599px;
+top: 110px;
+
+border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.BondsSecondDivStartingFirstDivText3{
+position: absolute;
+width: 121px;
+height: 22px;
+left: 600px;
+top: 50px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.BondsSecondDivStartingFirstDivText2{
+position: absolute;
+width: 148px;
+height: 22px;
+left: 345px;
+top: 70px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.BondsSecondDivStartingFirstDivText1{
+position: absolute;
+width: 172px;
+height: 25px;
+left: 70px;
+top: 68px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.BondsSecondDivStartingFirstDiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.BondsSecondDivStarting{
+  display: flex;
+  flex-direction: row;
+}
+
+.TextBelowBondText{
+position: absolute;
+width: 638px;
+height: 18px;
+left: 74px;
+top: 35.9px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+
+.BondText{
+position: absolute;
+width: 65px;
+height: 30px;
+left: 74px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+}
+
 .Container3-Bomb-BTCB{
 position: absolute;
 width: 113px;
@@ -1203,9 +1459,6 @@ line-height: 19px;
 color: #FFFFFF;
 }
 
-.BombFarmStartingDepositAndWithdrawDivBoardroom{
-
-}
 
 .BombFarmStartingLastDivBoardroomBox{
   display: flex;
