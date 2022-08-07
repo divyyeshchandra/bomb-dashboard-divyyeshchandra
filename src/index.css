@@ -27,192 +27,196 @@ h2 {
   color: #f9d749 !important;
 }
 
-.firstContainer{
+.firstContainer {
   position: absolute;
   width: 1048px;
   height: 289px;
   left: 400px;
   top: 18px;
-  
+
   background: rgba(32, 37, 67, 0.5);
   backdrop-filter: blur(10px);
   /* Note: backdrop-filter has minimal browser support */
-  
+
   border-radius: 5px;
 }
 
-.container{
+.container {
   display: flex;
   flex-direction: row;
 }
 
-.Line-After-FirstThreeLetters1{
+.Line-After-FirstThreeLetters1 {
   position: absolute;
   width: 299px;
   height: 0px;
   left: 35px;
   top: 73px;
-  
+
   border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
-.FirstThreeLetters{
+.FirstThreeLetters {
   display: flex;
   flex-direction: row;
 }
 
-.Container3-others{
+.Container3-others {
   position: absolute;
   width: 60px;
   height: 15px;
   left: 903px;
   top: 245px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 104.02%;
   /* identical to box height, or 15px */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
   font-feature-settings: 'liga' off;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.InvestNow{
-box-sizing: border-box;
+.InvestNow {
+  box-sizing: border-box;
 
-position: absolute;
-width: 646px;
-height: 40px;
-left: 400px;
-top: 359.47px;
+  position: absolute;
+  width: 646px;
+  height: 40px;
+  left: 400px;
+  top: 359.47px;
 
-background: radial-gradient(59345.13% 4094144349.28% at 39511.5% -2722397851.45%, rgba(0, 245, 171, 0.5) 0%, rgba(0, 173, 232, 0.5) 100%);
-border: 0.5px solid #E41A1A;
+  background: radial-gradient(
+    59345.13% 4094144349.28% at 39511.5% -2722397851.45%,
+    rgba(0, 245, 171, 0.5) 0%,
+    rgba(0, 173, 232, 0.5) 100%
+  );
+  border: 0.5px solid #e41a1a;
 }
 
 /* .BelowInvestNow{
 
 } */
 
-.ChatOnDescord{
-box-sizing: border-box;
+.ChatOnDescord {
+  box-sizing: border-box;
 
-position: absolute;
-width: 317px;
-height: 40px;
-left: 400px;
-top: 415.5px;
+  position: absolute;
+  width: 317px;
+  height: 40px;
+  left: 400px;
+  top: 415.5px;
 
-background: rgba(255, 255, 255, 0.5);
-border: 1px solid #728CDF;
-backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #728cdf;
+  backdrop-filter: blur(25px);
 }
 
-.ReadDocs{
-box-sizing: border-box;
+.ReadDocs {
+  box-sizing: border-box;
 
-position: absolute;
-width: 310px;
-height: 40px;
-left: 735px;
-top: 415.5px;
+  position: absolute;
+  width: 310px;
+  height: 40px;
+  left: 735px;
+  top: 415.5px;
 
-background: rgba(255, 255, 255, 0.5);
-border: 1px solid #728CDF;
-backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid #728cdf;
+  backdrop-filter: blur(25px);
 }
-.RecommentBox{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-gap: 10px;
+.RecommentBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 
-position: absolute;
-width: 101px;
-height: 16px;
-left: 590px;
-top: 490px;
+  position: absolute;
+  width: 101px;
+  height: 16px;
+  left: 590px;
+  top: 490px;
 
-background: rgba(0, 232, 162, 0.5);
-border-radius: 3px;
+  background: rgba(0, 232, 162, 0.5);
+  border-radius: 3px;
 }
 
-.DivBelowFarms{
+.DivBelowFarms {
   display: flex;
   flex-direction: row;
 }
 
-.BombFarmsText{
-position: absolute;
-width: 129px;
-height: 30px;
-left: 50px;
-top: -5px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 30px;
-/* identical to box height */
-color: #FFFFFF;
-}
-
-.BombFarmStartingDiv{
-box-sizing: border-box;
-position: absolute;
-width: 1046px;
-height: 377.25px;
-left: 405px;
-top: 730px;
-
-background: rgba(35, 40, 75, 0.75);
-border: 1px solid #728CDF;
-backdrop-filter: blur(10px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 10px;
-}
-
-.TextBelowBombFarms{
+.BombFarmsText {
   position: absolute;
-width: 379px;
-height: 19px;
-left: 50px;
-top: 40px;
+  width: 129px;
+  height: 30px;
+  left: 50px;
+  top: -5px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: #FFFFFF;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #ffffff;
 }
 
-.depositButtonText{
+.BombFarmStartingDiv {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1046px;
+  height: 377.25px;
+  left: 405px;
+  top: 730px;
+
+  background: rgba(35, 40, 75, 0.75);
+  border: 1px solid #728cdf;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.TextBelowBombFarms {
+  position: absolute;
+  width: 379px;
+  height: 19px;
+  left: 50px;
+  top: 40px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.depositButtonText {
   margin-left: 10px;
 }
 
-.withdrawButtonText{
+.withdrawButtonText {
   margin-left: 10px;
 }
 
-.BombFarmDeopsitButton{
+.BombFarmDeopsitButton {
   width: 80px;
   height: 25px;
   position: absolute;
   left: 36rem;
+  background-color: transparent;
   top: 5.2rem;
   font-family: 'Nunito';
   font-style: normal;
@@ -221,24 +225,25 @@ color: #FFFFFF;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   border: 1px solid white;
   border-radius: 25px;
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmDeopsitButtonSecondDiv{
+.BombFarmDeopsitButtonSecondDiv {
   width: 80px;
   height: 25px;
   position: absolute;
   left: 36rem;
   top: 13.2rem;
+  background-color: transparent;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
@@ -246,22 +251,24 @@ color: #FFFFFF;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   border: 1px solid white;
   border-radius: 25px;
 
-  
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.RedeemButton1{
+
+
+.RedeemButton1 {
   width: 80px;
   height: 25px;
   position: absolute;
+  background-color: transparent;
   left: 56rem;
   top: 8.8rem;
   font-family: 'Nunito';
@@ -271,18 +278,18 @@ color: #FFFFFF;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   border: 1px solid white;
   border-radius: 25px;
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.RedeemButton{
+.RedeemButton {
   width: 80px;
   height: 25px;
   position: absolute;
@@ -290,48 +297,27 @@ color: #FFFFFF;
   top: 4.2rem;
   font-family: 'Nunito';
   font-style: normal;
+  background-color: transparent;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   border: 1px solid white;
   border-radius: 25px;
 
-  
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmDeopsitButtonTextSeconDiv{
-  width: 53px;
-height: 20px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
-
-color: #FFFFFF;
-
-
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-
-.RedeemButtonText{
+.BombFarmDeopsitButtonTextSeconDiv {
   width: 53px;
   height: 20px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
@@ -339,21 +325,19 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
 
-  
+  color: #ffffff;
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.RedeemButtonText1{
+.RedeemButtonText {
   width: 53px;
   height: 20px;
-  
+
+  background-color: transparent;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
@@ -361,25 +345,43 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
-  
+
+  color: #ffffff;
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmStartingDepositAndWithdrawDivBoardroom{
+.RedeemButtonText1 {
+  width: 53px;
+  height: 20px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.BombFarmStartingDepositAndWithdrawDivBoardroom {
   display: flex;
   flex-direction: row;
 }
 
-.depositButton{
+.depositButton {
   width: 80px;
   height: 25px;
   position: absolute;
+  background-color: transparent;
   left: 52rem;
   top: 37.2rem;
   font-family: 'Nunito';
@@ -389,27 +391,27 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
+
   border: 1px solid white;
   border-radius: 25px;
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmClaimButton{
-
+.BombFarmClaimButton {
   width: 120px;
   height: 20px;
   position: absolute;
   border: 1px solid white;
+  background-color: transparent;
   border-radius: 25px;
   left: 48.7rem;
-  top:5.3rem;
+  top: 5.3rem;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
@@ -417,36 +419,34 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
 
-.BondsStarting{
+.BondsStarting {
   box-sizing: border-box;
 
-position: absolute;
-width: 1045px;
-height: 186px;
-left: 405px;
-top: 1157px;
+  position: absolute;
+  width: 1045px;
+  height: 186px;
+  left: 405px;
+  top: 1157px;
 
-background: rgba(35, 40, 75, 0.75);
-border: 1px solid #728CDF;
-backdrop-filter: blur(10px);
-/* Note: backdrop-filter has minimal browser support */
+  background: rgba(35, 40, 75, 0.75);
+  border: 1px solid #728cdf;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.eclipse{
+.eclipse {
   position: absolute;
   width: 153.83px;
   height: 153.83px;
@@ -454,42 +454,42 @@ border-radius: 10px;
   top: 52px;
 }
 
-.insideeclipse{
+.insideeclipse {
   position: absolute;
   width: 102px;
   height: 102px;
   left: 28px;
   top: 35px;
   border-radius: 50px;
-  background: #23284B;
+  background: #23284b;
 }
 
-.insideeclipseText{
+.insideeclipseText {
   position: absolute;
   width: 78px;
   height: 40px;
   left: 16px;
   top: 16px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 104.02%;
   /* or 21px */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
   font-feature-settings: 'liga' off;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.BombFarmClaimButtonTextSecondDiv{
+.BombFarmClaimButtonTextSecondDiv {
   width: 104px;
   height: 20px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
@@ -497,26 +497,25 @@ border-radius: 10px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmClaimButtonSecondDiv{
-
+.BombFarmClaimButtonSecondDiv {
   width: 120px;
   height: 20px;
   position: absolute;
   border: 1px solid white;
   border-radius: 25px;
+  background-color: transparent;
   left: 48.7rem;
-  top:13.3rem;
+  top: 13.3rem;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
@@ -524,25 +523,24 @@ border-radius: 10px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
 
-.BombFarmWithdrawButton{
+.BombFarmWithdrawButton {
   width: 80px;
   height: 25px;
   position: absolute;
   left: 42rem;
   top: 5.2rem;
   border: 1px solid white;
+  background-color: transparent;
   border-radius: 25px;
   font-family: 'Nunito';
   font-style: normal;
@@ -551,40 +549,38 @@ border-radius: 10px;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmWithdrawButtonTextSecondDiv{
+.BombFarmWithdrawButtonTextSecondDiv {
   width: 69px;
-height: 20px;
+  height: 20px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 20px;
-display: flex;
-align-items: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.BombFarmWithdrawButtonSecondDiv{
+.BombFarmWithdrawButtonSecondDiv {
   width: 80px;
   height: 25px;
   position: absolute;
@@ -592,6 +588,7 @@ flex-grow: 0;
   top: 13.2rem;
   border: 1px solid white;
   border-radius: 25px;
+  background-color: transparent;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
@@ -599,22 +596,22 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.withdrawButton{
+.withdrawButton {
   width: 80px;
   height: 25px;
   position: absolute;
   left: 58rem;
+  background-color: transparent;
   top: 37.2rem;
   border: 1px solid white;
   border-radius: 25px;
@@ -625,29 +622,29 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.claimRewardButtonText{
+.claimRewardButtonText {
   margin-left: 35px;
 }
 
-.claimRewardButton{
+.claimRewardButton {
   width: 175px;
   height: 20px;
   position: absolute;
   border: 1px solid white;
+  background-color: transparent;
   border-radius: 25px;
   left: 52rem;
-  top:39.2rem;
+  top: 39.2rem;
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
@@ -655,107 +652,103 @@ flex-grow: 0;
   line-height: 20px;
   display: flex;
   align-items: center;
-  
-  color: #FFFFFF;
-  
-  
+
+  color: #ffffff;
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.BombFarmStartingBoardroomText{
-position: absolute;
-width: 115px;
-height: 30px;
-left: 0.29px;
+.BombFarmStartingBoardroomText {
+  position: absolute;
+  width: 135px;
+  height: 30px;
+  left: 0.29px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 30px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BombFarmStartingRecommentBoxTextSecondDiv{
+.BombFarmStartingRecommentBoxTextSecondDiv {
   width: 82px;
-height: 16px;
+  height: 16px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-display: flex;
-align-items: center;
-text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.BombFarmStartingLineAfetrBoardroomSecondDiv{
+.BombFarmStartingLineAfetrBoardroomSecondDiv {
   position: absolute;
   width: 950px;
   height: 0px;
   top: 185px;
-  
+
   border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
-.BombFarmStartingRecommentBoxSecondDiv{
+.BombFarmStartingRecommentBoxSecondDiv {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px;
-gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 
-position: absolute;
-width: 101px;
-height: 16px;
-left: 145.46px;
-top: 144.00px;
+  position: absolute;
+  width: 101px;
+  height: 16px;
+  left: 145.46px;
+  top: 144px;
 
-background: rgba(0, 232, 162, 0.5);
-border-radius: 3px;
+  background: rgba(0, 232, 162, 0.5);
+  border-radius: 3px;
 }
 
-.BombFarmStartingBoardroomTextSecondDiv{
-position: absolute;
-width: 147px;
-height: 30px;
-top: 130.57px;
+.BombFarmStartingBoardroomTextSecondDiv {
+  position: absolute;
+  width: 147px;
+  height: 30px;
+  top: 130.57px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BombFarmStartingBelowDescordAndReadSecondDiv{
+.BombFarmStartingBelowDescordAndReadSecondDiv {
   display: flex;
   flex-direction: row;
 }
 
-.BombFarmStartingInvestnowAndLatestNewsFirstDiv{
+.BombFarmStartingInvestnowAndLatestNewsFirstDiv {
   position: absolute;
   width: 57rem;
   top: 77px;
@@ -763,741 +756,734 @@ color: #FFFFFF;
   color: white;
 }
 
-.LatestNewsText{
-position: absolute;
-width: 128px;
-height: 30px;
-left: 19px;
-top: 8px;
+.LatestNewsText {
+  position: absolute;
+  width: 128px;
+  height: 30px;
+  left: 19px;
+  top: 8px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 30px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.LatestNewsDiv{
- box-sizing: border-box;
-position: absolute;
-width: 382px;
-height: 336px;
-left: 1070px;
-top: 350px;
+.LatestNewsDiv {
+  box-sizing: border-box;
+  position: absolute;
+  width: 382px;
+  height: 336px;
+  left: 1070px;
+  top: 350px;
 
-background: rgba(35, 40, 75, 0.75);
-border: 1px solid #728CDF;
-backdrop-filter: blur(10px);
-/* Note: backdrop-filter has minimal browser support */
+  background: rgba(35, 40, 75, 0.75);
+  border: 1px solid #728cdf;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.YourStakeDiv{
-position: absolute;
-width: 74px;
-height: 60px;
-left: 552px;
-top: 582.43px;
+.YourStakeDiv {
+  position: absolute;
+  width: 74px;
+  height: 60px;
+  left: 552px;
+  top: 582.43px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.InvestnowAndLatestNewsFirstDiv{
+.InvestnowAndLatestNewsFirstDiv {
   display: flex;
   flex-direction: row;
 }
 
-.DepositAndWithdrawDivBoardroom{
+.DepositAndWithdrawDivBoardroom {
   display: flex;
   flex-direction: row;
 }
 
-.EarnedDiv{
-position: absolute;
-width: 100px;
-height: 60px;
-left: 661px;
-top: 582.43px;
+.EarnedDiv {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  left: 661px;
+  top: 582.43px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.DailyReturnDiv{
-position: absolute;
-width: 89px;
-height: 52px;
-left: 458px;
-top: 582.43px;
+.DailyReturnDiv {
+  position: absolute;
+  width: 89px;
+  height: 52px;
+  left: 458px;
+  top: 582.43px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.LastDivBoardroomBox{
+.LastDivBoardroomBox {
   display: flex;
   flex-direction: row;
 }
 
-.TotalStaked{
-position: absolute;
-width: 142px;
-height: 22px;
-left: 890px;
-top: 545px;
+.TotalStaked {
+  position: absolute;
+  width: 142px;
+  height: 22px;
+  left: 890px;
+  top: 545px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.LineAfetrBoardroom{
-position: absolute;
-width: 542px;
-height: 0px;
-left: 450px;
-top: 545px;
+.LineAfetrBoardroom {
+  position: absolute;
+  width: 542px;
+  height: 0px;
+  left: 450px;
+  top: 545px;
 
-border: 0.5px solid rgba(195, 197, 203, 0.75);
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
-.TVLprice{
-position: absolute;
-width: 118px;
-height: 22px;
-left: 892px;
-top: 485.43px;
+.TVLprice {
+  position: absolute;
+  width: 118px;
+  height: 22px;
+  left: 892px;
+  top: 485.43px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.TextBelowBoardroom{
-position: absolute;
-width: 279px;
-height: 19px;
-left: 470.29px;
-top: 518px;
+.TextBelowBoardroom {
+  position: absolute;
+  width: 279px;
+  height: 19px;
+  left: 470.29px;
+  top: 518px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.RecommentBoxText{
-width: 82px;
-height: 16px;
+.RecommentBoxText {
+  width: 82px;
+  height: 16px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 16px;
-display: flex;
-align-items: center;
-text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.BelowDescordAndRead{
+.BelowDescordAndRead {
   display: flex;
   flex-direction: row;
 }
 
-.BoardroomText{
-position: absolute;
-width: 115px;
-height: 30px;
-left: 68.29px;
-top: -10px;
+.BoardroomText {
+  position: absolute;
+  width: 115px;
+  height: 30px;
+  left: 68.29px;
+  top: -10px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 30px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BoardroomBox{
-box-sizing: border-box;
+.BoardroomBox {
+  box-sizing: border-box;
 
-position: absolute;
-width: 646px;
-height: 202px;
-left: 400px;
-top: 480px;
+  position: absolute;
+  width: 646px;
+  height: 202px;
+  left: 400px;
+  top: 480px;
 
-background: rgba(35, 40, 75, 0.75);
-border: 1px solid #728CDF;
-backdrop-filter: blur(10px);
-/* Note: backdrop-filter has minimal browser support */
+  background: rgba(35, 40, 75, 0.75);
+  border: 1px solid #728cdf;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
 
-border-radius: 10px;
+  border-radius: 10px;
 }
 
-.ReadDocsText{
+.ReadDocsText {
   position: absolute;
   width: 92.87px;
   height: 25px;
   left: 115.63px;
   top: -10px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   font-feature-settings: 'liga' off;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.ChatOnDescordText{
-position: absolute;
-width: 134px;
-height: 25px;
-left: 80.68px;
-top: -10px;
+.ChatOnDescordText {
+  position: absolute;
+  width: 134px;
+  height: 25px;
+  left: 80.68px;
+  top: -10px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 25px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
 
-display: flex;
-align-items: center;
-font-feature-settings: 'liga' off;
+  display: flex;
+  align-items: center;
+  font-feature-settings: 'liga' off;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.InvestNowText{
-position: absolute;
-width: 128px;
-height: 33px;
-left: 268px;
-top: -22px;
+.InvestNowText {
+  position: absolute;
+  width: 128px;
+  height: 33px;
+  left: 268px;
+  top: -22px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 800;
-font-size: 24px;
-line-height: 33px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
 
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-color: #ffffff;
+  color: #ffffff;
 }
 
-.ReadInvestmentStrategy{
+.ReadInvestmentStrategy {
   width: 190px;
   height: 22px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
   /* identical to box height */
-  
+
   align-items: center;
   text-decoration-line: underline;
   font-feature-settings: 'liga' off;
-  
-  color: #9EE6FF;
+
+  color: #9ee6ff;
   position: absolute;
   left: 60rem;
   top: 20rem;
-  
+
   /* Inside auto layout */
-  
+
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-.Container3-Bshare-BNB{
-position: absolute;
-width: 107px;
-height: 15px;
-left: 903px;
-top: 221px;
+.Container3-Bshare-BNB {
+  position: absolute;
+  width: 107px;
+  height: 15px;
+  left: 903px;
+  top: 221px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 104.02%;
-/* identical to box height, or 15px */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 104.02%;
+  /* identical to box height, or 15px */
 
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'liga' off;
 
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'liga' off;
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondsSecondDivStartingSecondDivText2{
-position: absolute;
-width: 65px;
-height: 49px;
-left: 380px;
-top: 75px;
+.BondsSecondDivStartingSecondDivText2 {
+  position: absolute;
+  width: 65px;
+  height: 49px;
+  left: 380px;
+  top: 75px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 49px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondsSecondDivStartingSecondDivText1{
-position: absolute;
-width: 230px;
-height: 30px;
-left: 60px;
-top: 104px;
+.BondsSecondDivStartingSecondDivText1 {
+  position: absolute;
+  width: 230px;
+  height: 30px;
+  left: 60px;
+  top: 104px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 30px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondsSecondDivStartingSecondDiv{
+.BondsSecondDivStartingSecondDiv {
   display: flex;
   flex-direction: row;
 }
 
-.BondsSecondDivStartingSecondDivText4{
-position: absolute;
-width: 108px;
-height: 22px;
-left: 605px;
-top: 110.6px;
+.BondsSecondDivStartingSecondDivText4 {
+  position: absolute;
+  width: 108px;
+  height: 22px;
+  left: 605px;
+  top: 110.6px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 22px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 22px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.LineAfterBonds{
-position: absolute;
-width: 417px;
-height: 0px;
-left: 599px;
-top: 110px;
+.LineAfterBonds {
+  position: absolute;
+  width: 417px;
+  height: 0px;
+  left: 599px;
+  top: 110px;
 
-border: 0.5px solid rgba(195, 197, 203, 0.75);
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
-.BondsSecondDivStartingFirstDivText3{
-position: absolute;
-width: 121px;
-height: 22px;
-left: 600px;
-top: 50px;
+.BondsSecondDivStartingFirstDivText3 {
+  position: absolute;
+  width: 121px;
+  height: 22px;
+  left: 600px;
+  top: 50px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 22px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondsSecondDivStartingFirstDivText2{
-position: absolute;
-width: 148px;
-height: 22px;
-left: 345px;
-top: 70px;
+.BondsSecondDivStartingFirstDivText2 {
+  position: absolute;
+  width: 148px;
+  height: 22px;
+  left: 345px;
+  top: 70px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
 
-
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondsSecondDivStartingFirstDivText1{
-position: absolute;
-width: 172px;
-height: 25px;
-left: 70px;
-top: 68px;
+.BondsSecondDivStartingFirstDivText1 {
+  position: absolute;
+  width: 172px;
+  height: 25px;
+  left: 70px;
+  top: 68px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 25px;
-/* identical to box height, or 156% */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  /* identical to box height, or 156% */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondsSecondDivStartingFirstDiv{
+.BondsSecondDivStartingFirstDiv {
   display: flex;
   flex-direction: row;
 }
 
-.BondsSecondDivStarting{
+.BondsSecondDivStarting {
   display: flex;
   flex-direction: row;
 }
 
-.TextBelowBondText{
-position: absolute;
-width: 638px;
-height: 18px;
-left: 74px;
-top: 35.9px;
+.TextBelowBondText {
+  position: absolute;
+  width: 638px;
+  height: 18px;
+  left: 74px;
+  top: 35.9px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BondText{
-position: absolute;
-width: 65px;
-height: 30px;
-left: 74px;
+.BondText {
+  position: absolute;
+  width: 65px;
+  height: 30px;
+  left: 74px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 700;
-font-size: 22px;
-line-height: 30px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  /* identical to box height */
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Container3-Bomb-BTCB{
-position: absolute;
-width: 113px;
-height: 15px;
-left: 903px;
-top: 198px;
+.Container3-Bomb-BTCB {
+  position: absolute;
+  width: 113px;
+  height: 15px;
+  left: 903px;
+  top: 198px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-/* identical to box height, or 15px */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  /* identical to box height, or 15px */
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Container3-Bbond{
-position: absolute;
-width: 30px;
-height: 15px;
-left: 743.9px;
-top: 245.18px;
+.Container3-Bbond {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  left: 743.9px;
+  top: 245.18px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 104.02%;
-/* identical to box height, or 15px */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 104.02%;
+  /* identical to box height, or 15px */
 
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'liga' off;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'liga' off;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Container3-Bshare{
-position: absolute;
-width: 30px;
-height: 15px;
-left: 742px;
-top: 221px;
+.Container3-Bshare {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  left: 742px;
+  top: 221px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 104.02%;
-/* identical to box height, or 15px */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 104.02%;
+  /* identical to box height, or 15px */
 
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'liga' off;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'liga' off;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Container3-Bomb{
-position: absolute;
-width: 30px;
-height: 15px;
-left: 742px;
-top: 198px;
+.Container3-Bomb {
+  position: absolute;
+  width: 30px;
+  height: 15px;
+  left: 742px;
+  top: 198px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 104.02%;
-/* identical to box height, or 15px */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 104.02%;
+  /* identical to box height, or 15px */
 
-display: flex;
-align-items: center;
-text-align: center;
-font-feature-settings: 'liga' off;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-feature-settings: 'liga' off;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BombFarmStartingBelowDescordAndRead{
+.BombFarmStartingBelowDescordAndRead {
   display: flex;
   flex-direction: row;
 }
 
-.BombFarmStartingRecommentBox{
+.BombFarmStartingRecommentBox {
   justify-content: center;
   align-items: center;
   padding: 10px;
   gap: 10px;
-  left: 120px;
+  left: 140px;
   top: 15px;
   margin-left: 10px;
   width: 101px;
   height: 16px;
   position: relative;
   background: rgba(0, 232, 162, 0.5);
-  border-radius: 3px;  
+  border-radius: 3px;
 }
 
-.BombFarmStartingTVLprice{
+.BombFarmStartingTVLprice {
+  color: #ffffff;
   position: relative;
   left: 36rem;
   top: 10px;
 }
 
-.BombFarmStartingEarnedDiv{
-position: absolute;
-width: 100px;
-height: 60px;
-left: 280px;
-top: 70.43px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: #FFFFFF;
-}
-
-.BombFarmStartingDepositAndWithdrawDivBoardroomSecondDiv{
-  display: flex;
-  flex-direction: row;
-}
-
-.BombFarmStartingTVLpriceSecondDiv{
+.BombFarmStartingEarnedDiv {
   position: absolute;
-width: 118px;
-height: 22px;
-left: 714px;
-top: 144px;
+  width: 100px;
+  height: 60px;
+  left: 280px;
+  top: 70.43px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 16.3px;
-line-height: 19px;
-
-color: #FFFFFF;
-}
-
-.BombFarmStartingYourStakeDivSecondDiv{
-position: absolute;
-width: 85px;
-height: 64px;
-left: 150px;
-top: 200px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: #FFFFFF;
-}
-
-.BombFarmStartingEarnedDivSecondDiv{
-  position: absolute;
-width: 76px;
-height: 64px;
-left: 280px;
-top: 200px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: #FFFFFF;
-}
-
-.BombFarmStartingLastDivBoardroomBoxSecondDiv{
-  display: flex;
-  flex-direction: row;
-}
-
-.BombFarmStartingDailyReturnDivSeocndDiv{
-position: absolute;
-width: 92px;
-height: 52px;
-top: 200px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: #FFFFFF;
-}
-
-
-.BombFarmStartingLastDivBoardroomBox{
-  display: flex;
-  flex-direction: row;
-}
-
-.BombFarmStartingYourStakeDiv{
-position: absolute;
-width: 74px;
-height: 60px;
-left: 152px;
-top: 70.43px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: #FFFFFF;
-}
-
-
-.BombFarmStartingDailyReturnDiv{
-  position: absolute;
-  width: 92px;
-  height: 52px;
-  top: 70px;
-  
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 19px;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.BombFarmStartingRecommentBoxText{
+.BombFarmStartingDepositAndWithdrawDivBoardroomSecondDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingTVLpriceSecondDiv {
+  position: absolute;
+  width: 118px;
+  height: 22px;
+  left: 714px;
+  top: 144px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.3px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.BombFarmStartingYourStakeDivSecondDiv {
+  position: absolute;
+  width: 85px;
+  height: 64px;
+  left: 150px;
+  top: 200px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.BombFarmStartingEarnedDivSecondDiv {
+  position: absolute;
+  width: 76px;
+  height: 64px;
+  left: 280px;
+  top: 200px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.BombFarmStartingLastDivBoardroomBoxSecondDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingDailyReturnDivSeocndDiv {
+  position: absolute;
+  width: 92px;
+  height: 52px;
+  top: 200px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.BombFarmStartingLastDivBoardroomBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.BombFarmStartingYourStakeDiv {
+  position: absolute;
+  width: 74px;
+  height: 60px;
+  left: 152px;
+  top: 70.43px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.BombFarmStartingDailyReturnDiv {
+  position: absolute;
+  width: 92px;
+  height: 52px;
+  top: 70px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.BombFarmStartingRecommentBoxText {
   width: 82px;
   height: 16px;
   font-family: 'Nunito';
@@ -1508,7 +1494,7 @@ color: #FFFFFF;
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   flex: none;
   order: 0;
   position: relative;
@@ -1517,437 +1503,434 @@ color: #FFFFFF;
   flex-grow: 0;
 }
 
-.LastEpoch{
-position: absolute;
-width: 149px;
-height: 19px;
-left: 425px;
-top: 228px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.TVL{
-position: absolute;
-width: 107px;
-height: 19px;
-left: 446px;
-top: 206px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.LiveTwap{
-position: absolute;
-width: 106px;
-height: 19px;
-left: 447px;
-top: 184px;
-
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 300;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
-
-text-align: center;
-
-color: #FFFFFF;
-}
-
-.NextEpochIn{
+.LastEpoch {
   position: absolute;
-width: 140px;
-height: 63px;
-left: 430px;
-top: 102px;
+  width: 149px;
+  height: 19px;
+  left: 425px;
+  top: 228px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 30px;
-/* or 118% */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Line1{
-position: absolute;
-width: 185.01px;
-height: 0px;
-left: 404px;
-top: 102px;
-
-border: 0.5px solid rgba(195, 197, 203, 0.75);
-}
-
-.CurrentEpoch{
+.TVL {
   position: absolute;
-width: 118px;
-height: 63px;
-left: 441px;
-top: 34px;
+  width: 107px;
+  height: 19px;
+  left: 446px;
+  top: 206px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 25px;
-/* or 139% */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.FirstThreeLetters-text1{
+.LiveTwap {
   position: absolute;
-width: 68px;
-height: 14px;
-left: 90px;
-top: 53px;
+  width: 106px;
+  height: 19px;
+  left: 447px;
+  top: 184px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height */
-color: #FFFFFF;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 
-.FirstThreeLetters-text2{
+.NextEpochIn {
   position: absolute;
-  width: 57px;
+  width: 140px;
+  height: 63px;
+  left: 430px;
+  top: 102px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 118% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.Line1 {
+  position: absolute;
+  width: 185.01px;
+  height: 0px;
+  left: 404px;
+  top: 102px;
+
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.CurrentEpoch {
+  position: absolute;
+  width: 118px;
+  height: 63px;
+  left: 441px;
+  top: 34px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  /* or 139% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.FirstThreeLetters-text1 {
+  position: absolute;
+  width: 68px;
   height: 14px;
-  left: 170px;
+  left: 90px;
   top: 53px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   /* identical to box height */
-  
-  text-align: center;
-  
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Line-After-FirstThreeLetters{
+.FirstThreeLetters-text2 {
   position: absolute;
-width: 299px;
-height: 0px;
-left: 35px;
-top: 114px;
+  width: 57px;
+  height: 14px;
+  left: 170px;
+  top: 53px;
 
-border: 0.5px solid rgba(195, 197, 203, 0.75);
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 
-.FirstDiv{
+.Line-After-FirstThreeLetters {
+  position: absolute;
+  width: 299px;
+  height: 0px;
+  left: 35px;
+  top: 114px;
+
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+.FirstDiv {
   display: flex;
   flex-direction: row;
 }
 
-.BombElement{
+.BombElement {
   position: absolute;
-width: 43px;
-height: 16px;
-left: 25px;
-top: 85px;
+  width: 43px;
+  height: 16px;
+  left: 25px;
+  top: 85px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BombElement2{
+.BombElement2 {
   position: absolute;
   width: 41px;
   height: 19px;
   left: 97px;
   top: 85px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
-  
+
   text-align: center;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.BombElement3{
+.BombElement3 {
   position: absolute;
-width: 40px;
-height: 19px;
-left: 178px;
-top: 85px;
+  width: 40px;
+  height: 19px;
+  left: 178px;
+  top: 85px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.BombElement4{
+.BombElement4 {
   position: absolute;
-width: 69px;
-height: 38px;
-left: 238px;
-top: 85px;
+  width: 100px;
+  height: 38px;
+  left: 225px;
+  top: 85px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-.FirstThreeLetters-text3{
+.FirstThreeLetters-text3 {
   position: absolute;
-width: 22px;
-height: 14px;
-left: 261px;
-top: 63px;
+  width: 22px;
+  height: 14px;
+  left: 261px;
+  top: 63px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 14px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.bombfinancesummary--heading{
+.bombfinancesummary--heading {
   position: absolute;
   width: 242px;
   height: 30px;
   left: 408.98px;
   top: -15px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 30px;
   /* identical to box height */
-  
-  
-  color: #FFFFFF;  
+
+  color: #ffffff;
 }
 
-.Line-After-FirstThreeLetters2{
+.Line-After-FirstThreeLetters2 {
   position: absolute;
   width: 352px;
   height: 0px;
   left: 16px;
   top: 130px;
-  
+
   border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
-.SecondDiv{
+.SecondDiv {
   display: flex;
   flex-direction: row;
 }
 
-.Bshare{
+.Bshare {
   position: absolute;
   width: 56px;
   height: 16px;
   left: 25px;
   top: 145px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.Bshare2{
+.Bshare2 {
   position: absolute;
-width: 46px;
-height: 19px;
-left: 94px;
-top: 145px;
+  width: 46px;
+  height: 19px;
+  left: 94px;
+  top: 145px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Bshare3{
+.Bshare3 {
   position: absolute;
-width: 41px;
-height: 19px;
-left: 177px;
-top: 145px;
+  width: 41px;
+  height: 19px;
+  left: 177px;
+  top: 145px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-/* identical to box height */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Bshare4{
+.Bshare4 {
   position: absolute;
-width: 83px;
-height: 38px;
-left: 231px;
-top: 145px;
+  width: 83px;
+  height: 38px;
+  left: 231px;
+  top: 145px;
 
-font-family: 'Nunito';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 19px;
-text-align: center;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Line-After-FirstThreeLetters3{
+.Line-After-FirstThreeLetters3 {
   position: absolute;
   width: 352px;
   height: 0px;
   left: 16px;
   top: 190px;
-  
+
   border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
-.Bbond{
+.Bbond {
   position: absolute;
   width: 51px;
   height: 16px;
   left: 26px;
   top: 203px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
   text-align: center;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.Bbond2{
+.Bbond2 {
   position: absolute;
   width: 46px;
   height: 19px;
   left: 94px;
   top: 201px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
-  
-  text-align: center;
-  
-  color: #FFFFFF;
 
+  text-align: center;
+
+  color: #ffffff;
 }
-.Bbond3{
+.Bbond3 {
   position: absolute;
   width: 33px;
   height: 19px;
   left: 181px;
   top: 201px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   /* identical to box height */
-  
+
   text-align: center;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
-.Bbond4{
+.Bbond4 {
   position: absolute;
-  width: 69px;
+  width: 80px;
   height: 38px;
   left: 238px;
   top: 201px;
-  
+
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
   line-height: 19px;
   text-align: center;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
 
 body {
@@ -2101,7 +2084,7 @@ code {
 }
 
 /* Dropdown menus implementation */
-.navDropdownMenuRoot:after{
+.navDropdownMenuRoot:after {
   content: '';
   border: 4px solid transparent;
   border-top: 4px solid white;
@@ -2131,14 +2114,14 @@ code {
   border-bottom: none;
 }
 
-.bombfinancesummary--heading--line{
+.bombfinancesummary--heading--line {
   position: absolute;
-width: 970px;
-height: 0px;
-left: 35px;
-top: 40px;
+  width: 970px;
+  height: 0px;
+  left: 35px;
+  top: 40px;
 
-border: 0.5px solid rgba(195, 197, 203, 0.75);
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
 .navDropdownMenu .navDropdownMenuItem {
@@ -2158,13 +2141,13 @@ border: 0.5px solid rgba(195, 197, 203, 0.75);
 
 @keyframes rotateMenu {
   0% {
-    transform: rotateX(-90deg)
+    transform: rotateX(-90deg);
   }
   70% {
-    transform: rotateX(20deg)
+    transform: rotateX(20deg);
   }
   100% {
-    transform: rotateX(0deg)
+    transform: rotateX(0deg);
   }
 }
 

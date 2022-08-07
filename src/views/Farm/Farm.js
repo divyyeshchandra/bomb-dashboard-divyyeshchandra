@@ -52,9 +52,7 @@ const Farm = () => {
                       Farms started November 25th 2021 and will continue running for 1 full year.</h4>
                   </Alert> */}
                 <Grid container spacing={3} style={{ marginTop: '20px' }}>
-                  {activeBanks
-                    .filter((bank) => bank.sectionInUI === 3)
-                    .map((bank) => (
+                  {activeBanks.filter((bank) => bank.sectionInUI === 3).map((bank) => (
                       <React.Fragment key={bank.name}>
                         <FarmCard bank={bank} />
                       </React.Fragment>

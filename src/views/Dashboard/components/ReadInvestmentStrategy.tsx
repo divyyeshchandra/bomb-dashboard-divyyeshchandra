@@ -5,7 +5,7 @@ const ReadInvestMentStrategy = () => {
     return (
         <>
             <div className='ReadInvestmentStrategy'>
-                <a href="http://w3schools.com">This is a link</a>
+                <a href="http:/bond">This is a link</a>
             </div>  
         </>
     )

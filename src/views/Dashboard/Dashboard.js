@@ -9,7 +9,7 @@ import BondsFunc from './components/BondsComponent';
 const Dashboard = () => {
     return (
         <>
-            <BombFinanceSummary/>
+            <BombFinanceSummary />
             <ReadInvestMentStrategy/>
             <InvestnowAndLatestNews/>
             <BombFarmComponent/>
@@ -19,3 +19,5 @@ const Dashboard = () => {
 }
 
 export default Dashboard;
+
+

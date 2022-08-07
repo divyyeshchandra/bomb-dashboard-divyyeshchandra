@@ -48,7 +48,7 @@ const AccountButton: React.FC<AccountButtonProps> = ({text}) => {
         </Button>
       )}
 
-      <WalletProviderModal open={isWalletProviderOpen} handleClose={handleWalletProviderClose} />
+      <WalletProviderModal open={isWalletProviderOpen} handleClose={handleWalletProviderClose}/>
       {/* <AccountModal open={isAccountModalOpen} handleClose={handleAccountModalClose}/> */}
     </div>
   );
