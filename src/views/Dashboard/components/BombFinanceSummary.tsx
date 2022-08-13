@@ -101,17 +101,19 @@ const BombFinanceSummary = () => {
             <p className="CurrentEpoch">
               Current Epoch
               <br />
-              <Typography>{Number(currentEpoch)}</Typography>
+              <p className='CurrentEpochText'>{Number(currentEpoch)}</p>
             </p>
             <hr className="Line1"></hr>
             <p className="NextEpochIn">
-              Next Epoch in
-              <br />
-              <ProgressCountdown base={moment().toDate()} hideBar={true} deadline={to} description="Next Epoch" />
+            <p className='NextEpochInText'><ProgressCountdown base={moment().toDate()} hideBar={true} deadline={to} description="Next Epoch" /></p> Next Epoch in
             </p>
-            <p className="LiveTwap">Live TWAP:1.17</p>
-            <p className="TVL">TVL:$5,003,112</p>
-            <p className="LastEpoch">Last Epoch TWAP:1.17</p>
+            <hr className="Line2"></hr>
+            <p className="LiveTwap">Live TWAP:</p>
+            <p className='LiveTwapText'>1.17</p>
+            <p className="TVL">TVL:</p>
+            <p className="TVLText">$5,003,112</p>
+            <p className="LastEpoch">Last Epoch TWAP:</p>
+            <p className='LastEpochText'>1.17</p>
           </div>
           <div className="container3">
             <div className="eclipse">

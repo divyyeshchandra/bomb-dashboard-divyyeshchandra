@@ -33,10 +33,9 @@ h2 {
   height: 289px;
   left: 400px;
   top: 18px;
-
-  background: rgba(32, 37, 67, 0.5);
+  
+  background: rgba(35, 40, 75, 0.75);
   backdrop-filter: blur(10px);
-  /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 5px;
 }
@@ -177,7 +176,8 @@ h2 {
   height: 377.25px;
   left: 405px;
   top: 730px;
-
+  display: flex;
+  justify-content: center;
   background: rgba(35, 40, 75, 0.75);
   border: 1px solid #728cdf;
   backdrop-filter: blur(10px);
@@ -185,6 +185,16 @@ h2 {
 
   border-radius: 10px;
 }
+
+ .MainCenterDiv{
+position: relative;
+min-height: 100vh;
+left: -19rem;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}  
 
 .TextBelowBombFarms {
   position: absolute;
@@ -1052,9 +1062,9 @@ h2 {
   text-decoration-line: underline;
   font-feature-settings: 'liga' off;
 
-  color: #9ee6ff;
+  color: #9EE6FF;
   position: absolute;
-  left: 60rem;
+  left: 52rem;
   top: 20rem;
 
   /* Inside auto layout */
@@ -1526,7 +1536,7 @@ h2 {
   position: absolute;
   width: 107px;
   height: 19px;
-  left: 446px;
+  left: 410px;
   top: 206px;
 
   font-family: 'Nunito';
@@ -1545,7 +1555,7 @@ h2 {
   position: absolute;
   width: 106px;
   height: 19px;
-  left: 447px;
+  left: 430px;
   top: 184px;
 
   font-family: 'Nunito';
@@ -1565,13 +1575,13 @@ h2 {
   width: 140px;
   height: 63px;
   left: 430px;
-  top: 102px;
+  top: 150px;
 
   font-family: 'Nunito';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 7px;
   /* or 118% */
 
   text-align: center;
@@ -1579,27 +1589,131 @@ h2 {
   color: #ffffff;
 }
 
+.NextEpochInText{
+position: absolute;
+width: 140px;
+height: 63px;
+top: -90px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 40px;
+/* or 118% */
+
+text-align: center;
+
+color: #FFFFFF;
+} 
+
 .Line1 {
   position: absolute;
   width: 185.01px;
   height: 0px;
   left: 404px;
-  top: 102px;
+  top: 107px;
 
   border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
 
+.LastEpochText{
+position: absolute;
+width: 149px;
+height: 19px;
+left: 497px;
+top:228px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #00E8A2;
+}
+
+.TVLText{
+position: absolute;
+width: 107px;
+height: 19px;
+left: 465px;
+top: 206px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+
+color: #00E8A2;
+}
+
+.LiveTwapText{
+
+  position: absolute;
+  width: 106px;
+  height: 19px;
+  left: 483px;
+  top: 184px;
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #00E8A2;
+}
+
+
+.Line2{
+  position: absolute;
+  width: 185.01px;
+  height: 0px;
+  left: 404px;
+  top: 180px;
+  border: 0.5px solid rgba(195, 197, 203, 0.75);
+}
+
+
+.CurrentEpochText{
+position: absolute;
+width: 118px;
+height: 63px;
+top: -2px;
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 33px;
+line-height: 25px;
+/* or 139% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
 .CurrentEpoch {
   position: absolute;
-  width: 118px;
+  width: 130px;
   height: 63px;
   left: 441px;
   top: 34px;
 
   font-family: 'Nunito';
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 15px;
   line-height: 25px;
   /* or 139% */
 
@@ -2119,7 +2233,7 @@ code {
   width: 970px;
   height: 0px;
   left: 35px;
-  top: 40px;
+  top: 35px;
 
   border: 0.5px solid rgba(195, 197, 203, 0.75);
 }
